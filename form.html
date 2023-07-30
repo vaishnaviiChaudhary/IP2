@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create your own T-shirt </title>
+</head>
+<body>
+    <h1 style="text-align:center">Create your own T-shirt</h1><br>
+    <form >
+        <label for="tagline">Tagline on the Shirt:</label>
+        <input type="text" id="tagline" name="tagline" required><br><br>
+
+        <label for="color">Color:</label>
+        <select id="color" name="color" required>  
+            <option value="red">Orange</option>
+            <option value="blue">Yellow</option>
+            <option value="green">Pink</option>
+            <option value="blue">Lavender</option>
+            <option value="green">Black</option>
+            <option value="green">White</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select><br><br>
+
+        <label for="size">Size:</label>
+        <input type="radio" id="size_xs" name="size" value="XS" required>
+        <label for="size_s">XS</label>
+        <input type="radio" id="size_s" name="size" value="S" required>
+        <label for="size_m">S</label>
+        <input type="radio" id="size_m" name="size" value="M" required>
+        <label for="size_l">M</label>
+        <input type="radio" id="size_l" name="size" value="L" required>
+        <label for="size_s">L</label>
+        <input type="radio" id="size_xl" name="size" value="XL" required>
+        <label for="size_m">XL</label>
+        <input type="radio" id="size_xll" name="size" value="XLL" required>
+        <label for="size_l">XLL</label><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <label for="delivery_date">Delivery Date:</label>
+        <input type="date" id="delivery_date" name="delivery_date" required><br><br>
+
+        <label for="other_details">Other Details:</label>
+        <textarea id="other_details" name="other_details" rows="3"></textarea><br><br>
+
+        <input type="submit" value="Place Order">
+    </form>
+</body>
+</html>
